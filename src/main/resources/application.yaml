@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: news-api-challenge
+
+gnews:
+  api:
+    key: 1cf9bff355c6f7bad91fc6dcd2a360bc
+
+feign:
+  client:
+    url:
+      gnews: https://gnews.io
